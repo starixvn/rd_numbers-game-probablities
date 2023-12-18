@@ -1,0 +1,36 @@
+{
+  "name": "@sc-rd/numbers-game-odds",
+  "version": "0.0.0",
+  "description": "",
+  "type": "commonjs",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "pretest-coverage": "npm install jest-junit ts-jest jest jest-sonar-reporter --no-save",
+    "test-coverage": "jest",
+    "build": "tsc -p tsconfig.build.json",
+    "reg": "echo 'Just making CI happy'"
+  },
+  "author": "",
+  "license": "ISC",
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/release-notes-generator": "12.1.0",
+    "@tsconfig/node20": "20.1.2",
+    "@types/jest": "29.5.11",
+    "@types/node": "20.10.5",
+    "sc-semantic-release": "1.3.0",
+    "semantic-release": "22.0.12",
+    "typescript": "5.3.3"
+  }
+}

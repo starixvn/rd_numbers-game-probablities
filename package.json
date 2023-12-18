@@ -1,5 +1,5 @@
 {
-  "name": "@sc-rd/numbers-game-odds",
+  "name": "@rd/numbers-game-odds",
   "version": "1.0.0",
   "description": "",
   "type": "commonjs",
@@ -12,7 +12,7 @@
     "pretest-coverage": "npm install jest-junit ts-jest jest jest-sonar-reporter --no-save",
     "test-coverage": "jest",
     "build": "tsc -p tsconfig.build.json",
-    "reg": "echo 'Just making CI happy'"
+    "reg": "tsc -p tsconfig.build.json"
   },
   "author": "",
   "license": "ISC",

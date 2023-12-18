@@ -3,6 +3,7 @@ variables:
   PROJECT_NAME: numbers-game-odds
   ENABLE_TEST_JS: "true"
   SRC_PATH: src
+  PUBLISH_NPM: "true"
 
 include:
   - project: ci/core-cicd

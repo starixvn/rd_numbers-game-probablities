@@ -1,1 +1,1 @@
-export const WELCOME = "Hello";
+export * as NextBall from "./next-ball";

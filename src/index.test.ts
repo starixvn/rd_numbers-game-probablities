@@ -1,8 +1,9 @@
-import { WELCOME } from "./index";
+import { NextBall } from "./index";
+import * as NexBallOriginal from "./next-ball";
 
 describe("when imported", () => {
   it("should return an object as expected", async () => {
     // Assert
-    expect(WELCOME).toStrictEqual("Hello");
+    expect(NextBall).toStrictEqual(NexBallOriginal);
   });
 });

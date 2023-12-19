@@ -1,3 +1,10 @@
+## [1.1.1](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.1.0...v1.1.1) (2023-12-19)
+
+
+### Bug Fixes
+
+* enable typescript declaration ([0d4e5f8](https://git3.nexdev.net/rd/numbers-game-odds/commit/0d4e5f808603a27941e0aa0ed2fb64690b270da5))
+
 # [1.1.0](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.0.0...v1.1.0) (2023-12-19)
 
 

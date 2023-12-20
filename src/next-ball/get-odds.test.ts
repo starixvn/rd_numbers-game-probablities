@@ -1,3 +1,4 @@
+import { AssertionError } from "assert";
 import { getOdds } from "./get-odds";
 import { NextBallOptions } from "./types";
 

@@ -1,3 +1,10 @@
+## [1.1.2](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.1.1...v1.1.2) (2023-12-21)
+
+
+### Bug Fixes
+
+* move methods to utils ([a20e8ba](https://git3.nexdev.net/rd/numbers-game-odds/commit/a20e8baa75188321ded1294ef1cf1341278da2b4))
+
 ## [1.1.1](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.1.0...v1.1.1) (2023-12-19)
 
 

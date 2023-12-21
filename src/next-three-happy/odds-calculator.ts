@@ -1,4 +1,4 @@
-import countWithCombination from "./combination";
+import countWithCombination from "./countWithCombination";
 
 export interface OU {
   over: number;
@@ -7,18 +7,20 @@ export interface OU {
 
 export function getOddsSumBall(
   ballsRemoved: number[],
-  allBall: number = 90,
-  ballTaken: number = 3,
-  target: number = 137
+  allBall = 90,
+  ballTaken = 3,
+  target = 137
 ): OU {
-  let balls = new Set<number>();
+  const balls = new Set<number>();
   for (let i = 1; i <= allBall; i++) {
-    if (!ballsRemoved.includes(i)) balls.add(i);
+    if (!ballsRemoved.includes(i)) {
+      balls.add(i)
+    };
   }
 
   let countAll = 0;
-  let count = countWithCombination([...balls], ballTaken, (item) => {
-    let sum = item[0] + item[1] + item[2];
+  const count = countWithCombination([...balls], ballTaken, (item) => {
+    const sum = item[0] + item[1] + item[2];
     countAll++;
     return sum >= target;
   });

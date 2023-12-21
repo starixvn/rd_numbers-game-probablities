@@ -1,4 +1,4 @@
-import countWithCombination from "./combination";
+import countWithCombination from "./countWithCombination";
 
 describe(countWithCombination.name, () => {
   test("With empty array return zero", () => {

@@ -4,7 +4,7 @@ import type { NumberWarOptions } from "./types";
 import { getSum } from "./helper";
 
 export function getOdds(playerDrawn: number[] = [], bankerDrawn: number[] = []): NumberWarOptions {
-  ok(bankerDrawn.length == playerDrawn.length);
+  ok(bankerDrawn.length === playerDrawn.length);
   ok(TOTAL_BALLS >= playerDrawn.length);
 
   const playerDrawnSum = getSum(playerDrawn);
@@ -19,9 +19,9 @@ export function getOdds(playerDrawn: number[] = [], bankerDrawn: number[] = []):
         playerDrawn.indexOf(playerNextBall) === -1 &&
         bankerDrawn.indexOf(bankerNextBall) === -1
       ) {
-        let playerSumDigit = (playerDrawnSum + playerNextBall) % 10;
-        let bankerSumDigit = (bankerDrawnSum + bankerNextBall) % 10;
-        if (playerSumDigit == bankerSumDigit) {
+        const playerSumDigit = (playerDrawnSum + playerNextBall) % 10;
+        const bankerSumDigit = (bankerDrawnSum + bankerNextBall) % 10;
+        if (playerSumDigit === bankerSumDigit) {
           tie += 1;
         } else if (playerSumDigit < bankerSumDigit) {
           bankerWin += 1;
@@ -33,13 +33,10 @@ export function getOdds(playerDrawn: number[] = [], bankerDrawn: number[] = []):
   }
 
   const total = tie + playerWin + bankerWin;
-  console.log(total, "-", tie, "-", playerWin, "-", bankerWin);
 
-  const result = {
+  return {
     player: total / playerWin,
     banker: total / bankerWin,
     tie: total / tie,
   };
-
-  return result;
 }

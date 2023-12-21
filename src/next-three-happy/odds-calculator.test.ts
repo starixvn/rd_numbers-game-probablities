@@ -2,19 +2,19 @@ import * as oddsCalculator from "./odds-calculator";
 
 describe(oddsCalculator.getOddsSumBall.name, () => {
   test("With not ball remove zero return 2", () => {
-    const expected_result: oddsCalculator.OU = {
+    const expectedResult: oddsCalculator.OU = {
       over: 2,
       under: 2,
     };
-    expect(oddsCalculator.getOddsSumBall([])).toStrictEqual(expected_result);
+    expect(oddsCalculator.getOddsSumBall([])).toStrictEqual(expectedResult);
   });
   test("With invalid remove zero return 2", () => {
-    const expected_result: oddsCalculator.OU = {
+    const expectedResult: oddsCalculator.OU = {
       over: 2,
       under: 2,
     };
     expect(oddsCalculator.getOddsSumBall([0, 0, 0])).toStrictEqual(
-      expected_result
+      expectedResult
     );
   });
   test("With valid input return OU greater than zero", () => {

@@ -7,8 +7,8 @@ export default function countWithCombination<T>(
   if (isSpecialCase) {
     return value;
   }
-  let maxDict = new Map<number, number>();
-  let indexArr = [];
+  const maxDict = new Map<number, number>();
+  const indexArr = [];
   for (let i = 0; i < n; i++) {
     maxDict.set(i, array.length - n + i);
     indexArr.push(i);
@@ -17,7 +17,7 @@ export default function countWithCombination<T>(
   let result = 0;
   let flag = false;
   while (true) {
-    let temp: T[] = indexArr.map((i) => array[i]);
+    const temp: T[] = indexArr.map((i) => array[i]);
     if (condition(temp)) {
       result++;
     }
@@ -56,8 +56,12 @@ function checkSpecialCase<T>(
   n: number,
   condition: (item: T[]) => boolean
 ): { isSpecialCase: boolean; value: number } {
-  if (n > array.length || n < 0) return { isSpecialCase: true, value: 0 };
-  if (n === 0) return { isSpecialCase: true, value: condition([]) ? 1 : 0 };
+  if (n > array.length || n < 0) {
+    return { isSpecialCase: true, value: 0 }
+  };
+  if (n === 0) {
+    return { isSpecialCase: true, value: condition([]) ? 1 : 0 }
+  };
 
   return { isSpecialCase: false, value: 0 };
 }

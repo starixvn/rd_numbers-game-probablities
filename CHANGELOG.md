@@ -1,3 +1,17 @@
+# [1.2.0](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.1.2...v1.2.0) (2023-12-26)
+
+
+### Bug Fixes
+
+* fix code smell ([0a6babf](https://git3.nexdev.net/rd/numbers-game-odds/commit/0a6babf6e6938e58ac3a66fb820535368c87d5de))
+* move helper function to util & format code ([3e3b847](https://git3.nexdev.net/rd/numbers-game-odds/commit/3e3b847ef8dd2c01f97c6288909a86dc206e67aa))
+
+
+### Features
+
+* add unit tests ([b48c8be](https://git3.nexdev.net/rd/numbers-game-odds/commit/b48c8be8d2daf99e96dda0416e8c852c729f5797))
+* implement number-war ([b286d29](https://git3.nexdev.net/rd/numbers-game-odds/commit/b286d293f86d34bc7bef10450cb76d9d15aa2eab))
+
 ## [1.1.2](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.1.1...v1.1.2) (2023-12-21)
 
 

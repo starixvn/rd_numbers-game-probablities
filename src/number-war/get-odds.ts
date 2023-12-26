@@ -1,7 +1,7 @@
 import { ok } from "assert";
 import { TOTAL_BALLS } from "./constants";
 import type { NumberWarOptions } from "./types";
-import { getSum } from "./helper";
+import { getSum } from "../utils";
 
 export function getOdds(playerDrawn: number[] = [], bankerDrawn: number[] = []): NumberWarOptions {
   ok(bankerDrawn.length === playerDrawn.length);

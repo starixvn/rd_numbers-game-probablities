@@ -1,4 +1,4 @@
-import { getSum } from "./helper";
+import { getSum } from "./get-sum";
 
 describe(getSum.name, () => {
   describe("when called", () => {

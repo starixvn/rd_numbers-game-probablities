@@ -1,5 +1,5 @@
 export interface NumberWarOptions {
-    player: number;
-    banker:number;
-    tie: number;
-  }
+  player: number;
+  banker: number;
+  tie: number;
+}

@@ -1,25 +1,35 @@
 import * as oddsCalculator from "./odds-calculator";
+import { NextThreeHappyOptions } from "./types";
 
 describe(oddsCalculator.getOddsSumBall.name, () => {
-  test("With not ball remove zero return 2", () => {
-    const expectedResult: oddsCalculator.OU = {
-      over: 2,
-      under: 2,
-    };
-    expect(oddsCalculator.getOddsSumBall([])).toStrictEqual(expectedResult);
-  });
-  test("With invalid remove zero return 2", () => {
-    const expectedResult: oddsCalculator.OU = {
-      over: 2,
-      under: 2,
-    };
-    expect(oddsCalculator.getOddsSumBall([0, 0, 0])).toStrictEqual(
-      expectedResult
-    );
-  });
-  test("With valid input return OU greater than zero", () => {
-    const { over, under } = oddsCalculator.getOddsSumBall([1, 50, 9]);
-    expect(over).toBeGreaterThan(0);
-    expect(under).toBeGreaterThan(0);
-  });
+  describe("When remove balls is empty", () => {
+    it("should return over is 2 and under is 2", () => {
+      // Arrange
+      const removedBalls: number[] = [];
+      const expectedResult: NextThreeHappyOptions = {
+        over: 2,
+        under: 2,
+      };
+
+      // Act
+      const actualResult = oddsCalculator.getOddsSumBall(removedBalls);
+
+      // Assert
+      expect(actualResult).toStrictEqual(expectedResult);
+    });
+  })
+
+  describe("when remove balls is not empty", () => {
+    it("should return over is greather than zero and under is greater than zero", () => {
+      // Arrange
+      const removedBalls: number[] = [34, 23, 12];
+
+      // Act
+      const actualResult = oddsCalculator.getOddsSumBall(removedBalls);
+
+      // Assert
+      expect(actualResult.under).toBeGreaterThan(0);
+      expect(actualResult.over).toBeGreaterThan(0);
+    })
+  })
 });

@@ -4,32 +4,26 @@ import { NextThreeHappyOptions } from "./types";
 describe(oddsCalculator.getOddsSumBall.name, () => {
   describe("When remove balls is empty", () => {
     it("should return over is 2 and under is 2", () => {
-      // Arrange
       const removedBalls: number[] = [];
       const expectedResult: NextThreeHappyOptions = {
         over: 2,
         under: 2,
       };
 
-      // Act
       const actualResult = oddsCalculator.getOddsSumBall(removedBalls);
 
-      // Assert
       expect(actualResult).toStrictEqual(expectedResult);
     });
-  })
+  });
 
   describe("when remove balls is not empty", () => {
     it("should return over is greather than zero and under is greater than zero", () => {
-      // Arrange
       const removedBalls: number[] = [34, 23, 12];
 
-      // Act
       const actualResult = oddsCalculator.getOddsSumBall(removedBalls);
 
-      // Assert
       expect(actualResult.under).toBeGreaterThan(0);
       expect(actualResult.over).toBeGreaterThan(0);
-    })
-  })
+    });
+  });
 });

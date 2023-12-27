@@ -1,4 +1,4 @@
-import countWithCombination from "./count-with-combination";
+import { countCombinationWithCondition, getSum } from "../utils/";
 import { NextThreeHappyOptions } from "./types";
 import {
   NUMBER_OF_TOTAL_BALLS,
@@ -29,16 +29,17 @@ export function getOddsSumBall(
     }
   }
 
-  const { numberOfAllCombinations, numberOfSuitableCombinations } =
-    countWithCombination([...balls], numberOfTakenBall, (item) =>
-      countSumGreatherOrEqualThan(targetValue, item)
-    );
+  const { satisfied, dissatisfied } = countCombinationWithCondition(
+    [...balls],
+    numberOfTakenBall,
+    (item) => countSumGreatherOrEqualThan(targetValue, item)
+  );
+
+  const numberOfAllCombinations = satisfied + dissatisfied;
 
   const result: NextThreeHappyOptions = {
-    over: numberOfAllCombinations / numberOfSuitableCombinations,
-    under:
-      numberOfAllCombinations /
-      (numberOfAllCombinations - numberOfSuitableCombinations),
+    over: numberOfAllCombinations / satisfied,
+    under: numberOfAllCombinations / dissatisfied,
   };
 
   return result;
@@ -48,6 +49,5 @@ function countSumGreatherOrEqualThan(
   targetValue: number,
   elements: number[]
 ): boolean {
-  const sum = elements.reduce((a, b) => a + b);
-  return sum >= targetValue;
+  return getSum(elements) >= targetValue;
 }

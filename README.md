@@ -8,6 +8,7 @@ The `Standard Odds` dynamically adjust based on the score, draw, and other facto
 | :----------: | :----------------------------: |
 | `next-ball`  | `odd`, `even`, `over`, `under` |
 | `number-war` |   `player`, `banker`, `tie`    |
+| `next-three-happy` |   `player`, `banker`, `tie`    |
 
 ## Installation
 
@@ -73,6 +74,37 @@ NumberWar.getOdds([],[]);
  *   player: 2.2233201581027666,
  *   banker: 2.2233201581027666,
  *   tie: 9.955752212389381
+ * }
+*/
+```
+
+### Next-three-happy
+
+`NextThreeHappy.getOddsSumBall` (function)
+
+Calculates the odds of getting a sum of numbers greater than or equal to a target value
+from a set of balls, after removing certain balls.
+
+_Parameters_
+
+- removedBalls - The balls that have been removed.
+- numberOfTotalBalls - The total number of balls.
+- numberOfTakenBall - The number of balls that have been taken.
+- targetValue - The target value.
+
+_Returns_ `NextThreeHappyOptions`
+
+_Examples_
+
+```Typescript
+import { NextThreeHappy } from "@rd/numbers-game-odds";
+
+NextThreeHappy.getOddsSumBall([], 90, 3, 137);
+/*
+ * Returns
+ * {
+ *   over: 2,
+ *   under: 2
  * }
 */
 ```

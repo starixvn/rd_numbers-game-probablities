@@ -1,4 +1,4 @@
-import * as oddsCalculator from "./odds-calculator";
+import * as oddsCalculator from "./get-odds";
 import { NextThreeHappyOptions } from "./types";
 
 describe(oddsCalculator.getOddsSumBall.name, () => {

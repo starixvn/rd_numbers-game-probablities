@@ -4,7 +4,7 @@
  * @param collection - The collection of numbers to generate combinations from.
  * @param combinationSize - The size of the combinations to generate.
  * @param condition - The condition function to check if a combination satisfies the condition.
- * @return {{ satisfied; dissatisfied }} - An object containing the count of combinations 
+ * @return {{ satisfied; dissatisfied }} - An object containing the count of combinations
  * that satisfy and do not satisfy the condition.
  */
 export function countCombinationWithCondition(
@@ -17,46 +17,60 @@ export function countCombinationWithCondition(
     satisfied: 0,
     dissatisfied: 0,
   };
-  combinationUtil(
-    { collection, combinationSize, condition },
+  const initState = {
     data,
-    0,
-    collection.length - 1,
-    0,
-    count
-  );
+    start: 0,
+    end: collection.length - 1,
+    index: 0,
+    count,
+  };
+  const fixedValueElements = {
+    collection,
+    combinationSize,
+    condition,
+  };
+  calculateCombination(fixedValueElements, initState);
 
   return count;
 }
 
-function combinationUtil(
+function calculateCombination(
   fixedValueElements: {
     collection: number[];
     combinationSize: number;
     condition: (combination: number[]) => boolean;
   },
-  data: number[],
-  start: number,
-  end: number,
-  index: number,
-  count: { satisfied: number; dissatisfied: number }
+  state: {
+    data: number[];
+    start: number;
+    end: number;
+    index: number;
+    count: { satisfied: number; dissatisfied: number };
+  }
 ) {
-  if (index === fixedValueElements.combinationSize) {
-    if (fixedValueElements.condition(data)) {
-      count.satisfied++;
+  if (state.index === fixedValueElements.combinationSize) {
+    if (fixedValueElements.condition(state.data)) {
+      state.count.satisfied++;
     } else {
-      count.dissatisfied++;
+      state.count.dissatisfied++;
     }
 
     return;
   }
 
   for (
-    let i = start;
-    i <= end && end - i + 1 >= fixedValueElements.combinationSize - index;
+    let i = state.start;
+    i <= state.end &&
+    state.end - i + 1 >= fixedValueElements.combinationSize - state.index;
     i++
   ) {
-    data[index] = fixedValueElements.collection[i];
-    combinationUtil(fixedValueElements, data, i + 1, end, index + 1, count);
+    state.data[state.index] = fixedValueElements.collection[i];
+
+    const newState = {
+      ...state,
+      start: i + 1,
+      index: state.index + 1,
+    };
+    calculateCombination(fixedValueElements, newState);
   }
 }

@@ -1,38 +1,32 @@
 import { countCombinationWithCondition, getSum } from "../utils";
 import { NextThreeHappyOptions } from "./types";
 import {
-  NUMBER_OF_TOTAL_BALLS,
-  NUMBER_OF_TAKEN_BALLS,
-  TARGET_VALUE,
+  TOTAL_BALLS as TOTAL_BALLS,
+  BALLS_EACH_TURN,
+  MEDIAN,
 } from "./constants";
 
 /**
- * Calculates the odds of getting a sum of numbers greater than or equal to a target value
+ * Calculates the odds of getting a sum of numbers greater than or equal to 137
  * from a set of balls, after removing certain balls.
  *
- * @param removedBalls - The balls that have been removed.
- * @param numberOfTotalBalls - The total number of balls.
- * @param numberOfTakenBall - The number of balls that have been taken.
- * @param targetValue - The target value.
+ * @param drawn - The balls that have been drawn.
  * @returns The odds of getting a sum of numbers greater than or equal to the target value.
  */
-export function getOddsSumBall(
-  removedBalls: number[],
-  numberOfTotalBalls = NUMBER_OF_TOTAL_BALLS,
-  numberOfTakenBall = NUMBER_OF_TAKEN_BALLS,
-  targetValue = TARGET_VALUE
+export function getOdds(
+  drawn: number[]
 ): NextThreeHappyOptions {
   const balls = new Set<number>();
-  for (let i = 1; i <= numberOfTotalBalls; i++) {
-    if (!removedBalls.includes(i)) {
+  for (let i = 1; i <= TOTAL_BALLS; i++) {
+    if (!drawn.includes(i)) {
       balls.add(i);
     }
   }
 
   const { satisfied, dissatisfied } = countCombinationWithCondition(
     [...balls],
-    numberOfTakenBall,
-    (item) => countSumGreaterOrEqualThan(targetValue, item)
+    BALLS_EACH_TURN,
+    (item) => countSumGreaterOrEqualThan(MEDIAN, item)
   );
 
   const numberOfAllCombinations = satisfied + dissatisfied;

@@ -8,7 +8,7 @@ The `Standard Probabilities` dynamically adjust based on the score, draw, and ot
 | :----------: | :----------------------------: |
 | `next-ball`  | `odd`, `even`, `over`, `under` |
 | `number-war` |   `player`, `banker`, `tie`    |
-| `next-three-happy` |   `player`, `banker`, `tie`    |
+| `next-three-happy` |   `over`, `under`    |
 
 ## Installation
 
@@ -80,17 +80,11 @@ NumberWar.getProbabilities([],[]);
 
 ### Next-three-happy
 
-`NextThreeHappy.getOddsSumBall` (function)
-
-Calculates the odds of getting a sum of numbers greater than or equal to a target value
-from a set of balls, after removing certain balls.
+`NextThreeHappy.getOdds` (function)
 
 _Parameters_
 
-- removedBalls - The balls that have been removed.
-- numberOfTotalBalls - The total number of balls.
-- numberOfTakenBall - The number of balls that have been taken.
-- targetValue - The target value.
+- drawn - The balls that have been removed.
 
 _Returns_ `NextThreeHappyOptions`
 
@@ -99,7 +93,7 @@ _Examples_
 ```Typescript
 import { NextThreeHappy } from "@rd/numbers-game-odds";
 
-NextThreeHappy.getOddsSumBall([], 90, 3, 137);
+NextThreeHappy.getOdds([]);
 /*
  * Returns
  * {

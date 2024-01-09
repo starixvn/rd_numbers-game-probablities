@@ -1,6 +1,6 @@
-## The Standard (in-play) Odds computation for the Number Games.
+## The Standard (in-play) Probabilities computation for the Number Games.
 
-The `Standard Odds` dynamically adjust based on the score, draw, and other factors.
+The `Standard Probabilities` dynamically adjust based on the score, draw, and other factors.
 
 ## Supported games
 
@@ -12,20 +12,20 @@ The `Standard Odds` dynamically adjust based on the score, draw, and other facto
 ## Installation
 
 ```bash
-npm install @rd/numbers-game-odds
+npm install @rd/numbers-game-probabilities
 ```
 
 or
 
 ```bash
-yarn add @rd/numbers-game-odds
+yarn add @rd/numbers-game-probabilities
 ```
 
 ## How to use
 
 ### Next-ball
 
-`NextBall.getOdds` (function)
+`NextBall.getProbabilities` (function)
 
 _Parameters_
 
@@ -36,23 +36,23 @@ _Returns_ `NextBallOptions`
 _Examples_
 
 ```Typescript
-import { NextBall } from "@rd/numbers-game-odds";
+import { NextBall } from "@rd/numbers-game-probabilities";
 
-NextBall.getOdds([]);
+NextBall.getProbabilities([]);
 /*
  * Returns
  * {
- *   over: 1.9736842105263157,
- *   odd: 1.9736842105263157,
- *   under: 2.027027027027027,
- *   even: 2.027027027027027
+ *   over: 0.5066666666666667,
+ *   odd: 0.5066666666666667,
+ *   under: 0.49333333333333335,
+ *   even: 0.49333333333333335,
  * }
 */
 ```
 
 ### Number-war
 
-`NumberWar.getOdds` (function)
+`NumberWar.getProbabilities` (function)
 
 _Parameters_
 
@@ -64,15 +64,15 @@ _Returns_ `NumberWarOptions`
 _Examples_
 
 ```Typescript
-import { NumberWar } from "@rd/numbers-game-odds";
+import { NumberWar } from "@rd/numbers-game-probabilities";
 
-NumberWar.getOdds([],[]);
+NumberWar.getProbabilities([],[]);
 /*
  * Returns
  * {
- *   player: 2.2233201581027666,
- *   banker: 2.2233201581027666,
- *   tie: 9.955752212389381
+ *   player: 0.49333333333333335,
+ *   banker: 0.49333333333333335,
+ *   tie: 0.013333333333333334
  * }
 */
 ```

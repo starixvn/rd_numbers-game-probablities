@@ -1,7 +1,7 @@
-import { getOdds } from "./index";
-import { getOdds as getOddsOriginal } from "./get-odds";
+import { getProbabilities } from "./index";
+import { getProbabilities as getProbabilitiesOriginal } from "./get-probabilities";
 describe("when imported", () => {
   it("should return an object as expected", async () => {
-    expect(getOdds).toStrictEqual(getOddsOriginal);
+    expect(getProbabilities).toStrictEqual(getProbabilitiesOriginal);
   });
 });

@@ -1,5 +1,5 @@
 import { NextThreeHappyOptions } from "./types";
-import * as CombineDrawnBase from "../base/combine-drawn";
+import * as CombineDrawnBase from "../base/combine-over-under";
 import { TOTAL_BALLS, BALLS_EACH_TURN, MEDIAN } from "./constants";
 
 export function getProbabilities(drawn: number[]): NextThreeHappyOptions {

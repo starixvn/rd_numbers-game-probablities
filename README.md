@@ -4,11 +4,12 @@ The `Standard Probabilities` dynamically adjust based on the score, draw, and ot
 
 ## Supported games
 
-|     Name     |          Bet Options           |
-| :----------: | :----------------------------: |
-| `next-ball`  | `odd`, `even`, `over`, `under` |
-| `number-war` |   `player`, `banker`, `tie`    |
-| `next-three-happy` |   `over`, `under`    |
+|        Name        |                    Bet Options                    |
+| :----------------: | :-----------------------------------------------: |
+|    `next-ball`     |          `odd`, `even`, `over`, `under`           |
+|    `number-war`    |             `player`, `banker`, `tie`             |
+| `next-three-happy` |                  `over`, `under`                  |
+|   `lucky-three`    | `over`, `under`, `red2`, `red3`, `blue2`, `blue3` |
 
 ## Installation
 
@@ -80,11 +81,11 @@ NumberWar.getProbabilities([],[]);
 
 ### Next-three-happy
 
-`NextThreeHappy.getOdds` (function)
+`NextThreeHappy.getProbabilities` (function)
 
 _Parameters_
 
-- drawn - The balls that have been removed.
+- drawn - The drawn balls.
 
 _Returns_ `NextThreeHappyOptions`
 
@@ -93,12 +94,41 @@ _Examples_
 ```Typescript
 import { NextThreeHappy } from "@rd/numbers-game-odds";
 
-NextThreeHappy.getOdds([]);
+NextThreeHappy.getProbabilities([]);
 /*
  * Returns
  * {
- *   over: 2,
- *   under: 2
+ *   over: 0.5,
+ *   under: 0.5
+ * }
+*/
+```
+
+### Lucky-three
+
+`LuckyThree.getProbabilities` (function)
+
+_Parameters_
+
+- drawn - The drawn balls.
+
+_Returns_ `LuckyThreeOptions`
+
+_Examples_
+
+```Typescript
+import { LuckyThree } from "@rd/numbers-game-odds";
+
+LuckyThree.getProbabilities();
+/*
+ * Returns
+ * {
+ *   over: 0.5,
+ *   under: 0.5,
+ *   red2: 0.3792134831460674,
+ *   red3: 0.12078651685393259,
+ *   blue2: 0.3792134831460674,
+ *   blue3: 0.12078651685393259
  * }
 */
 ```

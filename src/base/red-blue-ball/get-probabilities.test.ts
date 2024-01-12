@@ -10,7 +10,7 @@ const TOTAL_BALLS = 90;
 describe(getProbabilities.name, () => {
   [
     {
-      elements: [],
+      drawnBalls: [],
       ballEachTurn: 3,
       expected: {
         red: [0.12078651685393259, 0.3792134831460674, 0.3792134831460674, 0.12078651685393259],
@@ -18,26 +18,27 @@ describe(getProbabilities.name, () => {
       },
     },
     {
-      elements: [1, 2, 3],
+      drawnBalls: [1, 2, 3], // first drawn is 2 red 1 blue
       ballEachTurn: 3,
       expected: {
+        // expected result for second drawn
         red: [0.12494929006085193, 0.38377281947261666, 0.3748478701825558, 0.11643002028397566],
         blue: [0.11643002028397566, 0.3748478701825558, 0.38377281947261666, 0.12494929006085193],
       },
     },
     {
-      elements: [],
+      drawnBalls: [],
       ballEachTurn: 4,
       expected: {
         red: [0.058310732274312285, 0.2499031383184812, 0.38357225881441304, 0.2499031383184812, 0.058310732274312285],
         blue: [0.058310732274312285, 0.2499031383184812, 0.38357225881441304, 0.2499031383184812, 0.058310732274312285],
       },
     },
-  ].forEach(({ elements, ballEachTurn, expected }) => {
+  ].forEach(({ drawnBalls, ballEachTurn, expected }) => {
     describe("when called", () => {
       it("should return as expected", () => {
         // Act
-        const actual = getProbabilities(elements, RED_BALLS, TOTAL_BALLS, ballEachTurn);
+        const actual = getProbabilities(drawnBalls, RED_BALLS, TOTAL_BALLS, ballEachTurn);
 
         // Assert
         expect(actual).toStrictEqual(expected);

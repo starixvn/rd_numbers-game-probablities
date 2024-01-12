@@ -1,3 +1,11 @@
+# [1.3.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.2.0...v1.3.0) (2024-01-12)
+
+
+### Features
+
+* update next ball get odds to get probabilitites ([985390b](https://git3.nexdev.net/rd/numbers-game-probablities/commit/985390b74f039bb85a3058783091ae4424f661af))
+* update number war get odds to get probabilitites ([c199910](https://git3.nexdev.net/rd/numbers-game-probablities/commit/c1999109890c9ad52452746d7782cd4adbef78a7))
+
 # [1.2.0](https://git3.nexdev.net/rd/numbers-game-odds/compare/v1.1.2...v1.2.0) (2023-12-26)
 
 

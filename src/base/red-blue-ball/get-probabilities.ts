@@ -31,8 +31,8 @@ export function getProbabilities(
   const redRemains = redBalls.length - drawnCount.red;
   const blueRemains = ballRemains - redRemains;
 
-  let red: number[] = [];
-  let blue: number[] = [];
+  const red: number[] = [];
+  const blue: number[] = [];
 
   for (let numberOfRedInNextTurn = 0; numberOfRedInNextTurn <= ballsEachTurn; numberOfRedInNextTurn++) {
     const numberOfBlueInNextTurn = ballsEachTurn - numberOfRedInNextTurn;

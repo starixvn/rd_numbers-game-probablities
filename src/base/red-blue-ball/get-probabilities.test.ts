@@ -1,4 +1,3 @@
-import { countCombinationWithCondition } from "../../utils/count-combination-with-condition";
 import { getProbabilities } from "./get-probabilities";
 
 const RED_BALLS: number[] = [

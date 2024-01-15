@@ -7,7 +7,7 @@ FROM base AS build
 
 WORKDIR /app
 
-COPY pnpm-lock.yaml package.json ./
+COPY package.json ./
 RUN pnpm run reg &&\
     pnpm install
 

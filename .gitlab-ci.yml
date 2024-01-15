@@ -3,7 +3,7 @@ variables:
   PUBLISH_NPM_IMAGE: $DOCKER_REG_LOCAL_URL/docker-hub/library/node:lts-slim
   PROJECT_NAME: numbers-game-odds
   ENABLE_TEST_JS: "true"
-  SRC_PATH: library
+  SRC_PATH: library/src
   PUBLISH_NPM: "true"
 
 include:

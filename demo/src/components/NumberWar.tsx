@@ -11,8 +11,11 @@ interface NumberWarData {
 }
 
 export function NumberWar() {
-  const [errors, setErrors] = useState({});
-  const [data, setData] = useState({} as NumberWarData);
+  const [data, setData] = useState({
+    playerDrawn: "",
+    bankerDrawn: "",
+    margin: "",
+  } as NumberWarData);
   const [odds, setOdds] = useState({} as NumberWarOdds);
   const [hidden, setHidden] = useState(true);
 

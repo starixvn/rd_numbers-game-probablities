@@ -2,6 +2,8 @@
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "declaration": true
+    "moduleResolution": "Node",
+    "module": "commonjs",
+    "declaration": true,
   }
 }

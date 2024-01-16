@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "https-sonarqube-lumigame-com-",
+        "projectKey": "numbers-game-odds"
+    }
+}

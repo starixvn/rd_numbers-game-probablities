@@ -1,11 +1,11 @@
 import "mini.css";
 import "./app.css";
-import { NumberWar } from "./components/NumberWar";
+import { BacBall } from "./components/BacBall";
 
 export function App() {
   return (
     <>
-      <NumberWar />
+      <BacBall />
     </>
   );
 }

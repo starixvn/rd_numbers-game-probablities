@@ -1,22 +1,22 @@
 import { useState } from "preact/hooks";
 import "mini.css";
 import "../app.css";
-import { NumberWarOdds, calculateBetOdds } from "../helper/number-game";
+import { BacBallOdds, calculateBetOdds } from "../helper/bac-ball";
 import { JSX } from "preact/jsx-runtime";
 
-interface NumberWarData {
+interface BacBallData {
   playerDrawn: string;
   bankerDrawn: string;
   margin: string;
 }
 
-export function NumberWar() {
+export function BacBall() {
   const [data, setData] = useState({
     playerDrawn: "",
     bankerDrawn: "",
     margin: "",
-  } as NumberWarData);
-  const [odds, setOdds] = useState({} as NumberWarOdds);
+  } as BacBallData);
+  const [odds, setOdds] = useState({} as BacBallOdds);
   const [hidden, setHidden] = useState(true);
 
   const handleDataChanged = (e: JSX.TargetedEvent<HTMLInputElement, Event>) => {
@@ -52,14 +52,14 @@ export function NumberWar() {
       bankerDrawn: "",
       margin: "",
     });
-    setOdds({} as NumberWarOdds);
+    setOdds({} as BacBallOdds);
     setHidden(true);
   };
 
   return (
     <form>
       <fieldset>
-        <legend>Number War</legend>
+        <legend>Bac Ball</legend>
         <div className="container">
           <div className="row">
             <div className="col-sm-2">

@@ -7,7 +7,7 @@ The `Standard Probabilities` dynamically adjust based on the score, draw, and ot
 |        Name        |                    Bet Options                    |
 | :----------------: | :-----------------------------------------------: |
 |    `next-ball`     |          `odd`, `even`, `over`, `under`           |
-|    `number-war`    |             `player`, `banker`, `tie`             |
+|     `bac-ball`     |             `player`, `banker`, `tie`             |
 | `next-three-happy` |                  `over`, `under`                  |
 |   `lucky-three`    | `over`, `under`, `red2`, `red3`, `blue2`, `blue3` |
 
@@ -52,23 +52,23 @@ NextBall.getProbabilities([]);
 */
 ```
 
-### Number-war
+### Bac-ball
 
-`NumberWar.getProbabilities` (function)
+`BacBall.getProbabilities` (function)
 
 _Parameters_
 
 - playerDrawn (`number[]`) - The player's drawn balls
 - bankerDrawn (`number[]`) - The banker's drawn balls
 
-_Returns_ `NumberWarOptions`
+_Returns_ `BacBallOptions`
 
 _Examples_
 
 ```Typescript
-import { NumberWar } from "@rd/numbers-game-probabilities";
+import { BacBall } from "@rd/numbers-game-probabilities";
 
-NumberWar.getProbabilities([],[]);
+BacBall.getProbabilities([],[]);
 /*
  * Returns
  * {

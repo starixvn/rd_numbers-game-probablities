@@ -1,4 +1,4 @@
-import { NumberWarOptions } from "./types";
+import { BacBallOptions } from "./types";
 import { getProbabilities } from "./get-probabilities";
 
 describe(getProbabilities.name, () => {
@@ -15,7 +15,7 @@ describe(getProbabilities.name, () => {
   describe("when called without arguments", () => {
     it("should return probabilities for the first drawn", () => {
       // Arrange
-      const odds: NumberWarOptions = {
+      const odds: BacBallOptions = {
         player: 37 / 75,
         banker: 37 / 75,
         tie: 1 / 75,

@@ -12,11 +12,9 @@ RUN pnpm run reg &&\
     pnpm install
 
 COPY . .
-RUN pnpm i --offline
 RUN pnpm run build
 
 FROM nginx:1.23.3-alpine-slim AS deploy
-EXPOSE 3000
 
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*

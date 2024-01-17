@@ -31,8 +31,14 @@ export function BacBall() {
   };
 
   const handleCalculateOdds = () => {
-    const playerDrawn = data.playerDrawn.replace(/,\s*$/, "").split(",").map(Number);
-    const bankerDrawn = data.bankerDrawn.replace(/,\s*$/, "").split(",").map(Number);
+    const playerDrawn = data.playerDrawn
+      .split(",")
+      .map(Number)
+      .filter((num) => num > 0);
+    const bankerDrawn = data.bankerDrawn
+      .split(",")
+      .map(Number)
+      .filter((num) => num > 0);
     const margin = Number(data.margin);
 
     const result = calculateBetOdds(playerDrawn, bankerDrawn, margin);

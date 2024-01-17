@@ -30,7 +30,10 @@ export function NextBall() {
   };
 
   const handleCalculateOdds = () => {
-    const drawn = data.drawn.replace(/,\s*$/, "").split(",").map(Number);
+    const drawn = data.drawn
+      .split(",")
+      .map(Number)
+      .filter((num) => num > 0);
     const margin = Number(data.margin);
 
     const result = calculateBetOdds(drawn, margin);

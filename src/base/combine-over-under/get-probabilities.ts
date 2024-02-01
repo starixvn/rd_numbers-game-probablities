@@ -1,4 +1,4 @@
-import { countCombinationWithCondition, sumGreaterOrEqualThan } from "../../utils";
+import { countCombinationWithCondition, sumGreaterOrEqualThan } from "../utils";
 import { OverUnderOptions } from "./types";
 
 /**

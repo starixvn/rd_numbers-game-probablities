@@ -1,8 +1,8 @@
 import { ok } from "assert";
 import { TOTAL_BALLS } from "./constants";
-import type { NumberWarOptions } from "./types";
+import type { BacBallOptions } from "./types";
 
-export function getProbabilities(playerDrawn: number[] = [], bankerDrawn: number[] = []): NumberWarOptions {
+export function getProbabilities(playerDrawn: number[] = [], bankerDrawn: number[] = []): BacBallOptions {
   ok(bankerDrawn.length === playerDrawn.length, Error("player drawn balls and banker drawn balls must be the same length"));
   ok(TOTAL_BALLS >= playerDrawn.length);
 

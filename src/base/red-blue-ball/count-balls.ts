@@ -1,4 +1,4 @@
-import { countBy } from "../../utils";
+import { countBy } from "../utils";
 import { RedBlueCounted } from "./types";
 
 export function countBalls(balls: number[], redBalls: number[]): RedBlueCounted {

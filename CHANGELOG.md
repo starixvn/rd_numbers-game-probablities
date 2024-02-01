@@ -1,3 +1,22 @@
+# [1.5.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.4.0...v1.5.0) (2024-02-01)
+
+
+### Bug Fixes
+
+* fix error in numberwar component ([393fdab](https://git3.nexdev.net/rd/numbers-game-probablities/commit/393fdab792acde5c41180948e301a304bfa27ad8))
+* remove redundant 0 in Odds generator ([44a93db](https://git3.nexdev.net/rd/numbers-game-probablities/commit/44a93db8fb596d68cf2d46432e0748b8ad28ea90))
+* update export type BacBallOptions ([ff91fb9](https://git3.nexdev.net/rd/numbers-game-probablities/commit/ff91fb94cc52927791855f1d7ead0f42e014a593))
+
+
+### Features
+
+* add next-ball to UI demo ([6881fa5](https://git3.nexdev.net/rd/numbers-game-probablities/commit/6881fa5e87c45732b46f0327291d78f094bb1c0e))
+* change name number-war to bac-ball & move utils to base ([7bae216](https://git3.nexdev.net/rd/numbers-game-probablities/commit/7bae216dd07d2bc10443c6afdfc6d6d76004ea6e))
+* create demo UI for library ([b74a6a4](https://git3.nexdev.net/rd/numbers-game-probablities/commit/b74a6a4998af3b9a73936ea2265d471daff3fd5a))
+* rename number war to bac ball ([784b0b9](https://git3.nexdev.net/rd/numbers-game-probablities/commit/784b0b96269b5e57e217f3f2c45015d83c26f572))
+* update .gitlab-ci.yml ([01ecf83](https://git3.nexdev.net/rd/numbers-game-probablities/commit/01ecf831af3b57ee9890787dfffcd05d8eff8ba9))
+* update Dockerfile ([cbb96ae](https://git3.nexdev.net/rd/numbers-game-probablities/commit/cbb96ae4db5a14c02d513638b500c89c0b6f3cb5))
+
 # [1.4.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.3.0...v1.4.0) (2024-01-16)
 
 

@@ -1,1 +1,1 @@
-export const TOTAL_BALLS = 75;
+export const TOTAL_BALLS = 30;

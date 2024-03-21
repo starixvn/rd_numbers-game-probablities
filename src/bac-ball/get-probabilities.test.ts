@@ -16,9 +16,9 @@ describe(getProbabilities.name, () => {
     it("should return probabilities for the first drawn", () => {
       // Arrange
       const odds: BacBallOptions = {
-        player: 37 / 75,
-        banker: 37 / 75,
-        tie: 1 / 75,
+        player: 29 / 60,
+        banker: 29 / 60,
+        tie: 1 / 30,
       };
 
       // Act
@@ -34,32 +34,32 @@ describe(getProbabilities.name, () => {
       playerDrawn: [1],
       bankerDrawn: [6],
       odds: {
-        banker: 2697 / 5476,
-        player: 2706 / 5476,
-        tie: 73 / 5476,
+        banker: 402 / 841,
+        player: 411 / 841,
+        tie: 28 / 841,
       },
     },
     {
       playerDrawn: [4, 8],
       bankerDrawn: [2, 10],
       odds: {
-        banker: 2629 / 5329,
-        player: 2629 / 5329,
-        tie: 71 / 5329,
+        banker: 379 / 784,
+        player: 379 / 784,
+        tie: 26 / 784,
       },
     },
     {
-      playerDrawn: [3, 18, 45],
-      bankerDrawn: [2, 34, 15],
+      playerDrawn: [3, 18, 15],
+      bankerDrawn: [2, 14, 15],
       odds: {
-        banker: 2571 / 5184,
-        player: 2544 / 5184,
-        tie: 69 / 5184,
+        banker: 355 / 729,
+        player: 349 / 729,
+        tie: 25 / 729,
       },
     },
   ].forEach(({ playerDrawn, bankerDrawn, odds }) => {
     describe(`when the player drawn is ${playerDrawn} and the banker drawn is ${bankerDrawn}`, () => {
-      it("should return odds as expected", () => {
+      it("should return probabilities as expected", () => {
         // Act
         const actual = getProbabilities(playerDrawn, bankerDrawn);
 

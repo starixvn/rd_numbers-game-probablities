@@ -8,7 +8,7 @@ export interface BacBallOdds {
 }
 
 export function calculateBetOdds(playerDrawn: number[], bankerDrawn: number[], margin: number): BacBallOdds {
-  const prob = Game.NumberWar.getProbabilities(playerDrawn, bankerDrawn);
+  const prob = Game.BacBall.getProbabilities(playerDrawn, bankerDrawn);
 
   return {
     player: probabilityToDecimalOdd(prob.player, margin),

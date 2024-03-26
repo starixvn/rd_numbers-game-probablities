@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@rd/numbers-game-probabilities':
-    specifier: ^1.3.0
-    version: 1.3.0
+    specifier: 1.5.0-beta
+    version: 1.5.0-beta
   mathjs:
     specifier: ^12.3.0
     version: 12.3.0
@@ -579,8 +579,10 @@ packages:
       - supports-color
     dev: true
 
-  /@rd/numbers-game-probabilities@1.3.0:
-    resolution: {integrity: sha512-iRHmCJywVJXrLR42wTtIR9wC1gWSZuEOkrEpUWPLtIdPAKw6+un0V6WG7hU8CoVcOengVaE/1QPaduPSRIsQSQ==}
+  /@rd/numbers-game-probabilities@1.5.0-beta:
+    resolution: {integrity: sha512-4MLGhOfCJOA8yzrXrBJYmUj85kz4CYdbycREWsNTi/oAUp0Hd/R+3Y/gdJbnD6cIqhHjfUmwIq9BRVmPknUGeQ==}
+    dependencies:
+      mathjs: 12.3.0
     dev: false
 
   /@rollup/plugin-inject@5.0.5:

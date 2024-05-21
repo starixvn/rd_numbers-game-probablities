@@ -1,3 +1,12 @@
+# [1.6.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.5.0...v1.6.0) (2024-05-21)
+
+
+### Features
+
+* export utils ([2335f41](https://git3.nexdev.net/rd/numbers-game-probablities/commit/2335f4142b5ddbc2be8269341a5cd3820d171974))
+* update bacball total ball to 30 ([1b3d531](https://git3.nexdev.net/rd/numbers-game-probablities/commit/1b3d531bc9aafbc3239d6ce6e3f621b8029261df))
+* upgrade package numbers-game-probabilities ([a853d49](https://git3.nexdev.net/rd/numbers-game-probablities/commit/a853d49dfa172b30c96512ac8108a4f76131fa1c))
+
 # [1.5.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.4.0...v1.5.0) (2024-02-01)
 
 

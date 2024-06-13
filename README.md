@@ -114,6 +114,18 @@ _Parameters_
 
 _Returns_ `LuckyThreeOptions`
 
+---
+
+`LuckyThree.getProbabilitiesRange` (function)
+
+_Parameters_
+
+- drawn - The drawn balls.
+
+_Returns_ `getProbabilitiesRange`
+
+---
+
 _Examples_
 
 ```Typescript

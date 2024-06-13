@@ -7,3 +7,8 @@ export interface LuckyThreeOptions {
   blue2: number;
   blue3: number;
 }
+
+export interface LuckyThreeProbabilitiesRange {
+  min: LuckyThreeOptions;
+  max: LuckyThreeOptions;
+}

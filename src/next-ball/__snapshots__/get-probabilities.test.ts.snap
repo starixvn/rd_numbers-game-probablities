@@ -1,0 +1,1918 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getProbabilities Snapshot test should match snapshot 1`] = `
+{
+  "even": 0.49333333333333335,
+  "odd": 0.5066666666666667,
+  "over": 0.5066666666666667,
+  "under": 0.49333333333333335,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 2`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 3`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 4`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 5`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 6`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 7`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 8`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 9`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 10`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 11`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 12`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 13`] = `
+{
+  "even": 0.4794520547945205,
+  "odd": 0.5205479452054794,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 14`] = `
+{
+  "even": 0.4794520547945205,
+  "odd": 0.5205479452054794,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 15`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 16`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.4931506849315068,
+  "under": 0.5068493150684932,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 17`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 18`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 19`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 20`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 21`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 22`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5277777777777778,
+  "under": 0.4722222222222222,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 23`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.4861111111111111,
+  "under": 0.5138888888888888,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 24`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5138888888888888,
+  "under": 0.4861111111111111,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 25`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5138888888888888,
+  "under": 0.4861111111111111,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 26`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.4861111111111111,
+  "under": 0.5138888888888888,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 27`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 28`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 29`] = `
+{
+  "even": 0.5138888888888888,
+  "odd": 0.4861111111111111,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 30`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 31`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 32`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.5352112676056338,
+  "under": 0.4647887323943662,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 33`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5211267605633803,
+  "under": 0.4788732394366197,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 34`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 35`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 36`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.49295774647887325,
+  "under": 0.5070422535211268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 37`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.5352112676056338,
+  "under": 0.4647887323943662,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 38`] = `
+{
+  "even": 0.5070422535211268,
+  "odd": 0.49295774647887325,
+  "over": 0.49295774647887325,
+  "under": 0.5070422535211268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 39`] = `
+{
+  "even": 0.5070422535211268,
+  "odd": 0.49295774647887325,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 40`] = `
+{
+  "even": 0.4647887323943662,
+  "odd": 0.5352112676056338,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 41`] = `
+{
+  "even": 0.4647887323943662,
+  "odd": 0.5352112676056338,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 42`] = `
+{
+  "even": 0.5142857142857142,
+  "odd": 0.4857142857142857,
+  "over": 0.5285714285714286,
+  "under": 0.4714285714285714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 43`] = `
+{
+  "even": 0.4714285714285714,
+  "odd": 0.5285714285714286,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 44`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 45`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 46`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5285714285714286,
+  "under": 0.4714285714285714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 47`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 48`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 49`] = `
+{
+  "even": 0.4857142857142857,
+  "odd": 0.5142857142857142,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 50`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5428571428571428,
+  "under": 0.45714285714285713,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 51`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 52`] = `
+{
+  "even": 0.463768115942029,
+  "odd": 0.5362318840579711,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 53`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 54`] = `
+{
+  "even": 0.4927536231884058,
+  "odd": 0.5072463768115942,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 55`] = `
+{
+  "even": 0.5217391304347826,
+  "odd": 0.4782608695652174,
+  "over": 0.4927536231884058,
+  "under": 0.5072463768115942,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 56`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 57`] = `
+{
+  "even": 0.463768115942029,
+  "odd": 0.5362318840579711,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 58`] = `
+{
+  "even": 0.4927536231884058,
+  "odd": 0.5072463768115942,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 59`] = `
+{
+  "even": 0.4782608695652174,
+  "odd": 0.5217391304347826,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 60`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 61`] = `
+{
+  "even": 0.4782608695652174,
+  "odd": 0.5217391304347826,
+  "over": 0.4927536231884058,
+  "under": 0.5072463768115942,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 62`] = `
+{
+  "even": 0.5441176470588235,
+  "odd": 0.45588235294117646,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 63`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.47058823529411764,
+  "under": 0.5294117647058824,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 64`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 65`] = `
+{
+  "even": 0.47058823529411764,
+  "odd": 0.5294117647058824,
+  "over": 0.5294117647058824,
+  "under": 0.47058823529411764,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 66`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.4852941176470588,
+  "under": 0.5147058823529411,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 67`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 68`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 69`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 70`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 71`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 72`] = `
+{
+  "even": 0.49333333333333335,
+  "odd": 0.5066666666666667,
+  "over": 0.5066666666666667,
+  "under": 0.49333333333333335,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 73`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 74`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 75`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 76`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 77`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 78`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 79`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 80`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 81`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 82`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 83`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 84`] = `
+{
+  "even": 0.4794520547945205,
+  "odd": 0.5205479452054794,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 85`] = `
+{
+  "even": 0.4794520547945205,
+  "odd": 0.5205479452054794,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 86`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 87`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.4931506849315068,
+  "under": 0.5068493150684932,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 88`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 89`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 90`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 91`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 92`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 93`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5277777777777778,
+  "under": 0.4722222222222222,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 94`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.4861111111111111,
+  "under": 0.5138888888888888,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 95`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5138888888888888,
+  "under": 0.4861111111111111,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 96`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5138888888888888,
+  "under": 0.4861111111111111,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 97`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.4861111111111111,
+  "under": 0.5138888888888888,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 98`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 99`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 100`] = `
+{
+  "even": 0.5138888888888888,
+  "odd": 0.4861111111111111,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 101`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 102`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 103`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.5352112676056338,
+  "under": 0.4647887323943662,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 104`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5211267605633803,
+  "under": 0.4788732394366197,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 105`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 106`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 107`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.49295774647887325,
+  "under": 0.5070422535211268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 108`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.5352112676056338,
+  "under": 0.4647887323943662,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 109`] = `
+{
+  "even": 0.5070422535211268,
+  "odd": 0.49295774647887325,
+  "over": 0.49295774647887325,
+  "under": 0.5070422535211268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 110`] = `
+{
+  "even": 0.5070422535211268,
+  "odd": 0.49295774647887325,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 111`] = `
+{
+  "even": 0.4647887323943662,
+  "odd": 0.5352112676056338,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 112`] = `
+{
+  "even": 0.4647887323943662,
+  "odd": 0.5352112676056338,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 113`] = `
+{
+  "even": 0.5142857142857142,
+  "odd": 0.4857142857142857,
+  "over": 0.5285714285714286,
+  "under": 0.4714285714285714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 114`] = `
+{
+  "even": 0.4714285714285714,
+  "odd": 0.5285714285714286,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 115`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 116`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 117`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5285714285714286,
+  "under": 0.4714285714285714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 118`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 119`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 120`] = `
+{
+  "even": 0.4857142857142857,
+  "odd": 0.5142857142857142,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 121`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5428571428571428,
+  "under": 0.45714285714285713,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 122`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 123`] = `
+{
+  "even": 0.463768115942029,
+  "odd": 0.5362318840579711,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 124`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 125`] = `
+{
+  "even": 0.4927536231884058,
+  "odd": 0.5072463768115942,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 126`] = `
+{
+  "even": 0.5217391304347826,
+  "odd": 0.4782608695652174,
+  "over": 0.4927536231884058,
+  "under": 0.5072463768115942,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 127`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 128`] = `
+{
+  "even": 0.463768115942029,
+  "odd": 0.5362318840579711,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 129`] = `
+{
+  "even": 0.4927536231884058,
+  "odd": 0.5072463768115942,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 130`] = `
+{
+  "even": 0.4782608695652174,
+  "odd": 0.5217391304347826,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 131`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 132`] = `
+{
+  "even": 0.4782608695652174,
+  "odd": 0.5217391304347826,
+  "over": 0.4927536231884058,
+  "under": 0.5072463768115942,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 133`] = `
+{
+  "even": 0.5441176470588235,
+  "odd": 0.45588235294117646,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 134`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.47058823529411764,
+  "under": 0.5294117647058824,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 135`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 136`] = `
+{
+  "even": 0.47058823529411764,
+  "odd": 0.5294117647058824,
+  "over": 0.5294117647058824,
+  "under": 0.47058823529411764,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 137`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.4852941176470588,
+  "under": 0.5147058823529411,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 138`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 139`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 140`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 141`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 142`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 143`] = `
+{
+  "even": 0.49333333333333335,
+  "odd": 0.5066666666666667,
+  "over": 0.5066666666666667,
+  "under": 0.49333333333333335,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 144`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 145`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 146`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 147`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 148`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 149`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 150`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 151`] = `
+{
+  "even": 0.4864864864864865,
+  "odd": 0.5135135135135135,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 152`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 153`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5135135135135135,
+  "under": 0.4864864864864865,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 154`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 155`] = `
+{
+  "even": 0.4794520547945205,
+  "odd": 0.5205479452054794,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 156`] = `
+{
+  "even": 0.4794520547945205,
+  "odd": 0.5205479452054794,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 157`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 158`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.4931506849315068,
+  "under": 0.5068493150684932,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 159`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 160`] = `
+{
+  "even": 0.5068493150684932,
+  "odd": 0.4931506849315068,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 161`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 162`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5068493150684932,
+  "under": 0.4931506849315068,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 163`] = `
+{
+  "even": 0.4931506849315068,
+  "odd": 0.5068493150684932,
+  "over": 0.5205479452054794,
+  "under": 0.4794520547945205,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 164`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5277777777777778,
+  "under": 0.4722222222222222,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 165`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.4861111111111111,
+  "under": 0.5138888888888888,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 166`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5138888888888888,
+  "under": 0.4861111111111111,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 167`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5138888888888888,
+  "under": 0.4861111111111111,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 168`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.4861111111111111,
+  "under": 0.5138888888888888,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 169`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 170`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 171`] = `
+{
+  "even": 0.5138888888888888,
+  "odd": 0.4861111111111111,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 172`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 173`] = `
+{
+  "even": 0.4861111111111111,
+  "odd": 0.5138888888888888,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 174`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.5352112676056338,
+  "under": 0.4647887323943662,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 175`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5211267605633803,
+  "under": 0.4788732394366197,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 176`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 177`] = `
+{
+  "even": 0.4788732394366197,
+  "odd": 0.5211267605633803,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 178`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.49295774647887325,
+  "under": 0.5070422535211268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 179`] = `
+{
+  "even": 0.49295774647887325,
+  "odd": 0.5070422535211268,
+  "over": 0.5352112676056338,
+  "under": 0.4647887323943662,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 180`] = `
+{
+  "even": 0.5070422535211268,
+  "odd": 0.49295774647887325,
+  "over": 0.49295774647887325,
+  "under": 0.5070422535211268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 181`] = `
+{
+  "even": 0.5070422535211268,
+  "odd": 0.49295774647887325,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 182`] = `
+{
+  "even": 0.4647887323943662,
+  "odd": 0.5352112676056338,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 183`] = `
+{
+  "even": 0.4647887323943662,
+  "odd": 0.5352112676056338,
+  "over": 0.5070422535211268,
+  "under": 0.49295774647887325,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 184`] = `
+{
+  "even": 0.5142857142857142,
+  "odd": 0.4857142857142857,
+  "over": 0.5285714285714286,
+  "under": 0.4714285714285714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 185`] = `
+{
+  "even": 0.4714285714285714,
+  "odd": 0.5285714285714286,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 186`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 187`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 188`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5285714285714286,
+  "under": 0.4714285714285714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 189`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 190`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 191`] = `
+{
+  "even": 0.4857142857142857,
+  "odd": 0.5142857142857142,
+  "over": 0.5142857142857142,
+  "under": 0.4857142857142857,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 192`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5428571428571428,
+  "under": 0.45714285714285713,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 193`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 194`] = `
+{
+  "even": 0.463768115942029,
+  "odd": 0.5362318840579711,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 195`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 196`] = `
+{
+  "even": 0.4927536231884058,
+  "odd": 0.5072463768115942,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 197`] = `
+{
+  "even": 0.5217391304347826,
+  "odd": 0.4782608695652174,
+  "over": 0.4927536231884058,
+  "under": 0.5072463768115942,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 198`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 199`] = `
+{
+  "even": 0.463768115942029,
+  "odd": 0.5362318840579711,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 200`] = `
+{
+  "even": 0.4927536231884058,
+  "odd": 0.5072463768115942,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 201`] = `
+{
+  "even": 0.4782608695652174,
+  "odd": 0.5217391304347826,
+  "over": 0.5072463768115942,
+  "under": 0.4927536231884058,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 202`] = `
+{
+  "even": 0.5072463768115942,
+  "odd": 0.4927536231884058,
+  "over": 0.5217391304347826,
+  "under": 0.4782608695652174,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 203`] = `
+{
+  "even": 0.4782608695652174,
+  "odd": 0.5217391304347826,
+  "over": 0.4927536231884058,
+  "under": 0.5072463768115942,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 204`] = `
+{
+  "even": 0.5441176470588235,
+  "odd": 0.45588235294117646,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 205`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.47058823529411764,
+  "under": 0.5294117647058824,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 206`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 207`] = `
+{
+  "even": 0.47058823529411764,
+  "odd": 0.5294117647058824,
+  "over": 0.5294117647058824,
+  "under": 0.47058823529411764,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 208`] = `
+{
+  "even": 0.5,
+  "odd": 0.5,
+  "over": 0.4852941176470588,
+  "under": 0.5147058823529411,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 209`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 210`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 211`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 212`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 213`] = `
+{
+  "even": 0.4852941176470588,
+  "odd": 0.5147058823529411,
+  "over": 0.5147058823529411,
+  "under": 0.4852941176470588,
+}
+`;

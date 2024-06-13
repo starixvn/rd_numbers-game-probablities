@@ -114,6 +114,18 @@ _Parameters_
 
 _Returns_ `LuckyThreeOptions`
 
+---
+
+`LuckyThree.getProbabilitiesRange` (function)
+
+_Parameters_
+
+- numberOfTurns - The number of turns per round (default = 3).
+
+_Returns_ `getProbabilitiesRange`
+
+---
+
 _Examples_
 
 ```Typescript

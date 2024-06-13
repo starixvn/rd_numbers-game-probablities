@@ -1,5 +1,6 @@
 import { BacBallOptions } from "./types";
 import { getProbabilities } from "./get-probabilities";
+import testCases from "./bacball-30-test-cases.json";
 
 describe(getProbabilities.name, () => {
   describe("when called with number of player drawn balls banker different banker drawn balls", () => {
@@ -66,6 +67,16 @@ describe(getProbabilities.name, () => {
         // Assert
         expect(actual).toStrictEqual(odds);
       });
+    });
+  });
+
+  describe("Snapshot test", () => {
+    it.each(testCases)("should match snapshot", ({ playerDrawn, bankerDrawn }) => {
+      // Act
+      const actual = getProbabilities(playerDrawn, bankerDrawn);
+
+      // Assert
+      expect(actual).toMatchSnapshot();
     });
   });
 });

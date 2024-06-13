@@ -120,7 +120,7 @@ _Returns_ `LuckyThreeOptions`
 
 _Parameters_
 
-- drawn - The drawn balls.
+- numberOfTurns - The number of turns per round (default = 3).
 
 _Returns_ `getProbabilitiesRange`
 

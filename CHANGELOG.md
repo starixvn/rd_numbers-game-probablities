@@ -1,3 +1,12 @@
+# [1.7.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.6.0...v1.7.0) (2024-06-13)
+
+
+### Features
+
+* add getProbabilitiesRange for lucky-three ([36aa6fc](https://git3.nexdev.net/rd/numbers-game-probablities/commit/36aa6fc62052169680b53ab83142bf65381f7faf))
+* change total balls & red balls ([18b819a](https://git3.nexdev.net/rd/numbers-game-probablities/commit/18b819acef6fab72ee61b7072092d509955eb0dc))
+* update default number of turns & readme for luckythree ([d6ff9b9](https://git3.nexdev.net/rd/numbers-game-probablities/commit/d6ff9b9af2b4923f1dd8745ceed396d52caa1edb))
+
 # [1.6.0](https://git3.nexdev.net/rd/numbers-game-probablities/compare/v1.5.0...v1.6.0) (2024-05-21)
 
 

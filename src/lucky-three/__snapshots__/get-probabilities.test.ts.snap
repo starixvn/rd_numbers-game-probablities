@@ -1,0 +1,1112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getProbabilities Snapshot test should match snapshot 1`] = `
+{
+  "blue2": 0.3813559322033898,
+  "blue3": 0.11864406779661017,
+  "over": 0.5,
+  "red2": 0.3813559322033898,
+  "red3": 0.11864406779661017,
+  "under": 0.5,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 2`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.4890293916609706,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5109706083390294,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 3`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.5106630211893369,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.489336978810663,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 4`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.48872180451127817,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5112781954887218,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 5`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5284347231715653,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.47156527682843474,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 6`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.4888926862611073,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5111073137388927,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 7`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.48455228981544773,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5154477101845523,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 8`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.501161995898838,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.49883800410116197,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 9`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.4855092276144908,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5144907723855092,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 10`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.4918318523581681,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5081681476418318,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 11`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.48427887901572114,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.5157211209842789,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 12`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5164046479835953,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.48359535201640463,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 13`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5088516746411483,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.49114832535885167,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 14`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.5039644565960355,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.49603554340396444,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 15`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.4706425153793575,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.5293574846206425,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 16`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.5243335611756664,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.47566643882433357,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 17`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.5282638414217362,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.47173615857826384,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 18`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.5229323308270677,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.4770676691729323,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 19`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.4939507860560492,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.5060492139439507,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 20`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.5136705399863295,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.48632946001367056,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 21`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.4815105946684894,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.5184894053315106,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 22`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5234791524265209,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.4765208475734792,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 23`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.5050580997949419,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.4949419002050581,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 24`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5061175666438824,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.4938824333561176,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 25`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.49138755980861243,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5086124401913875,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 26`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.4623034859876965,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5376965140123035,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 27`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.4696514012303486,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.5303485987696513,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 28`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.5160287081339713,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.4839712918660287,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 29`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.4914559125085441,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.508544087491456,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 30`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.4902597402597403,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5097402597402597,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 31`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.5206425153793575,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.47935748462064254,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 32`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.4926520847573479,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5073479152426521,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 33`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.4945317840054682,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.5054682159945317,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 34`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.4891319207108681,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5108680792891319,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 35`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.5090225563909775,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.49097744360902257,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 36`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.5247095010252905,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.4752904989747095,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 37`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.49613807245386193,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.5038619275461381,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 38`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.48345864661654137,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.5165413533834586,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 39`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.4868421052631579,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.5131578947368421,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 40`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5371496924128503,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.4628503075871497,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 41`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.5081681476418318,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.4918318523581681,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 42`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.4896103896103896,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5103896103896104,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 43`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.5315447710184552,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.4684552289815448,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 44`] = `
+{
+  "blue2": 0.37464114832535883,
+  "blue3": 0.11196172248803828,
+  "over": 0.509090909090909,
+  "red2": 0.38851674641148326,
+  "red3": 0.12488038277511962,
+  "under": 0.4909090909090909,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 45`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.5434723171565277,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.45652768284347234,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 46`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.5045112781954887,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.49548872180451126,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 47`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.5459330143540669,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.454066985645933,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 48`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.47983595352016406,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5201640464798359,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 49`] = `
+{
+  "blue2": 0.359876965140123,
+  "blue3": 0.09996582365003417,
+  "over": 0.47200956937799043,
+  "red2": 0.40140123034859876,
+  "red3": 0.13875598086124402,
+  "under": 0.5279904306220096,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 50`] = `
+{
+  "blue2": 0.40140123034859876,
+  "blue3": 0.13875598086124402,
+  "over": 0.5171223513328776,
+  "red2": 0.359876965140123,
+  "red3": 0.09996582365003417,
+  "under": 0.48287764866712235,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 51`] = `
+{
+  "blue2": 0.38851674641148326,
+  "blue3": 0.12488038277511962,
+  "over": 0.47682843472317155,
+  "red2": 0.37464114832535883,
+  "red3": 0.11196172248803828,
+  "under": 0.5231715652768284,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 52`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.4537574584744396,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.5462425415255604,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 53`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.5362038380906305,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.46379616190936945,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 54`] = `
+{
+  "blue2": 0.35074987905176586,
+  "blue3": 0.09272697951943235,
+  "over": 0.49963715529753266,
+  "red2": 0.4092081922270602,
+  "red3": 0.14731494920174165,
+  "under": 0.5003628447024674,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 55`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.569101757781003,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.4308982422189969,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 56`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5165295920012901,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.4834704079987099,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 57`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.4990727302048057,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.5009272697951943,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 58`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.49963715529753266,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.5003628447024674,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 59`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.483389775842606,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.516610224157394,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 60`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.4889937106918239,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.5110062893081762,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 61`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.5220125786163522,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.4779874213836478,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 62`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.48165618448637315,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.5183438155136268,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 63`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.4816158684083212,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.5183841315916787,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 64`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.4727866473149492,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.5272133526850508,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 65`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.48343009192065794,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.516569908079342,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 66`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5192710853088212,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.48072891469117884,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 67`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.5027818093855829,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.497218190614417,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 68`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.4479519432349621,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.5520480567650379,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 69`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5017335913562329,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.49826640864376714,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 70`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5383002741493308,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.46169972585066926,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 71`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5781325592646347,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.42186744073536525,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 72`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.468472826963393,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.531527173036607,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 73`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5206418319625867,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.4793581680374133,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 74`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5045557168198678,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.49544428318013223,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 75`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.5491452991452992,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.45085470085470086,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 76`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5521286889211418,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.44787131107885825,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 77`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.548097081115949,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.451902918884051,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 78`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5262054507337526,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.47379454926624737,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 79`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5144331559425899,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.4855668440574101,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 80`] = `
+{
+  "blue2": 0.33381712626995647,
+  "blue3": 0.08159974197710047,
+  "over": 0.488388969521045,
+  "red2": 0.420899854862119,
+  "red3": 0.16368327689082407,
+  "under": 0.511611030478955,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 81`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.4909288824383164,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.5090711175616836,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 82`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5136268343815513,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.4863731656184486,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 83`] = `
+{
+  "blue2": 0.33381712626995647,
+  "blue3": 0.08159974197710047,
+  "over": 0.4946379616190937,
+  "red2": 0.420899854862119,
+  "red3": 0.16368327689082407,
+  "under": 0.5053620383809063,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 84`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.45871633607482665,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.5412836639251734,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 85`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5534591194968553,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.44654088050314467,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 86`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.4581922270601516,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.5418077729398484,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 87`] = `
+{
+  "blue2": 0.4092081922270602,
+  "blue3": 0.14731494920174165,
+  "over": 0.5655539429124334,
+  "red2": 0.35074987905176586,
+  "red3": 0.09272697951943235,
+  "under": 0.4344460570875665,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 88`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5155216900499919,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.48447830995000807,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 89`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.4777052088372843,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.5222947911627157,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 90`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.4753265602322206,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.5246734397677794,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 91`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.47851153039832284,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.5214884696016772,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 92`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.4794791162715691,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.5205208837284309,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 93`] = `
+{
+  "blue2": 0.420899854862119,
+  "blue3": 0.16368327689082407,
+  "over": 0.5180212868892115,
+  "red2": 0.33381712626995647,
+  "red3": 0.08159974197710047,
+  "under": 0.4819787131107886,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 94`] = `
+{
+  "blue2": 0.4092081922270602,
+  "blue3": 0.14731494920174165,
+  "over": 0.4754475084663764,
+  "red2": 0.35074987905176586,
+  "red3": 0.09272697951943235,
+  "under": 0.5245524915336236,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 95`] = `
+{
+  "blue2": 0.4092081922270602,
+  "blue3": 0.14731494920174165,
+  "over": 0.5062489920980487,
+  "red2": 0.35074987905176586,
+  "red3": 0.09272697951943235,
+  "under": 0.4937510079019513,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 96`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.470125786163522,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.529874213836478,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 97`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5190695049185615,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.4809304950814385,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 98`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5202386711820675,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.4797613288179326,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 99`] = `
+{
+  "blue2": 0.3668763102725367,
+  "blue3": 0.10482180293501048,
+  "over": 0.45972423802612483,
+  "red2": 0.39622641509433965,
+  "red3": 0.1320754716981132,
+  "under": 0.5402757619738752,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 100`] = `
+{
+  "blue2": 0.38207547169811323,
+  "blue3": 0.1179245283018868,
+  "over": 0.5148363167231091,
+  "red2": 0.38207547169811323,
+  "red3": 0.1179245283018868,
+  "under": 0.4851636832768908,
+}
+`;
+
+exports[`getProbabilities Snapshot test should match snapshot 101`] = `
+{
+  "blue2": 0.39622641509433965,
+  "blue3": 0.1320754716981132,
+  "over": 0.5135865183034994,
+  "red2": 0.3668763102725367,
+  "red3": 0.10482180293501048,
+  "under": 0.48641348169650056,
+}
+`;

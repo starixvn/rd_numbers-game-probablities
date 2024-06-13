@@ -1,5 +1,6 @@
 import { getProbabilities } from "./get-probabilities";
 import { NextBallOptions } from "./types";
+import testCases from "./next-ball-test-cases.json";
 
 describe(getProbabilities.name, () => {
   describe("when called without arguments", () => {
@@ -56,6 +57,16 @@ describe(getProbabilities.name, () => {
 
         // Assert
         expect(actual).toStrictEqual(probabilities);
+      });
+    });
+
+    describe("Snapshot test", () => {
+      it.each(testCases)("should match snapshot", ({ balls }) => {
+        // Act
+        const actual = getProbabilities(balls);
+
+        // Assert
+        expect(actual).toMatchSnapshot();
       });
     });
   });

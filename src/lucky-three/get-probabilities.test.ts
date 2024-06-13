@@ -1,5 +1,6 @@
 import { getProbabilities } from "./get-probabilities";
 import { LuckyThreeOptions } from "./types";
+import testCases from "./luckythree-60-test-cases.json";
 
 describe(getProbabilities.name, () => {
   describe("when called with no argument", () => {
@@ -64,6 +65,16 @@ describe(getProbabilities.name, () => {
 
         expect(actualResult).toStrictEqual(expected);
       });
+    });
+  });
+
+  describe("Snapshot test", () => {
+    it.each(testCases)("should match snapshot", ({ balls }) => {
+      // Act
+      const actual = getProbabilities(balls);
+
+      // Assert
+      expect(actual).toMatchSnapshot();
     });
   });
 });

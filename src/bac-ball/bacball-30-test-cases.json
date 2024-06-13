@@ -1,0 +1,406 @@
+[
+  {
+    "playerDrawn": [],
+    "bankerDrawn": []
+  },
+  {
+    "playerDrawn": [30],
+    "bankerDrawn": [1]
+  },
+  {
+    "playerDrawn": [4],
+    "bankerDrawn": [16]
+  },
+  {
+    "playerDrawn": [8],
+    "bankerDrawn": [20]
+  },
+  {
+    "playerDrawn": [14],
+    "bankerDrawn": [21]
+  },
+  {
+    "playerDrawn": [20],
+    "bankerDrawn": [9]
+  },
+  {
+    "playerDrawn": [17],
+    "bankerDrawn": [6]
+  },
+  {
+    "playerDrawn": [23],
+    "bankerDrawn": [6]
+  },
+  {
+    "playerDrawn": [30],
+    "bankerDrawn": [29]
+  },
+  {
+    "playerDrawn": [23],
+    "bankerDrawn": [16]
+  },
+  {
+    "playerDrawn": [26],
+    "bankerDrawn": [11]
+  },
+  {
+    "playerDrawn": [25],
+    "bankerDrawn": [11]
+  },
+  {
+    "playerDrawn": [21],
+    "bankerDrawn": [20]
+  },
+  {
+    "playerDrawn": [19],
+    "bankerDrawn": [16]
+  },
+  {
+    "playerDrawn": [29],
+    "bankerDrawn": [23]
+  },
+  {
+    "playerDrawn": [17],
+    "bankerDrawn": [14]
+  },
+  {
+    "playerDrawn": [3],
+    "bankerDrawn": [18]
+  },
+  {
+    "playerDrawn": [20],
+    "bankerDrawn": [12]
+  },
+  {
+    "playerDrawn": [19],
+    "bankerDrawn": [15]
+  },
+  {
+    "playerDrawn": [7],
+    "bankerDrawn": [30]
+  },
+  {
+    "playerDrawn": [4],
+    "bankerDrawn": [23]
+  },
+  {
+    "playerDrawn": [2],
+    "bankerDrawn": [25]
+  },
+  {
+    "playerDrawn": [3],
+    "bankerDrawn": [15]
+  },
+  {
+    "playerDrawn": [13],
+    "bankerDrawn": [27]
+  },
+  {
+    "playerDrawn": [19],
+    "bankerDrawn": [29]
+  },
+  {
+    "playerDrawn": [17],
+    "bankerDrawn": [11]
+  },
+  {
+    "playerDrawn": [19],
+    "bankerDrawn": [28]
+  },
+  {
+    "playerDrawn": [2],
+    "bankerDrawn": [21]
+  },
+  {
+    "playerDrawn": [18],
+    "bankerDrawn": [2]
+  },
+  {
+    "playerDrawn": [22],
+    "bankerDrawn": [24]
+  },
+  {
+    "playerDrawn": [13],
+    "bankerDrawn": [5]
+  },
+  {
+    "playerDrawn": [30],
+    "bankerDrawn": [14]
+  },
+  {
+    "playerDrawn": [3],
+    "bankerDrawn": [18]
+  },
+  {
+    "playerDrawn": [18],
+    "bankerDrawn": [2]
+  },
+  {
+    "playerDrawn": [17],
+    "bankerDrawn": [25]
+  },
+  {
+    "playerDrawn": [4],
+    "bankerDrawn": [3]
+  },
+  {
+    "playerDrawn": [26],
+    "bankerDrawn": [12]
+  },
+  {
+    "playerDrawn": [3],
+    "bankerDrawn": [9]
+  },
+  {
+    "playerDrawn": [17],
+    "bankerDrawn": [24]
+  },
+  {
+    "playerDrawn": [15],
+    "bankerDrawn": [30]
+  },
+  {
+    "playerDrawn": [23],
+    "bankerDrawn": [26]
+  },
+  {
+    "playerDrawn": [23],
+    "bankerDrawn": [10]
+  },
+  {
+    "playerDrawn": [14],
+    "bankerDrawn": [12]
+  },
+  {
+    "playerDrawn": [21],
+    "bankerDrawn": [10]
+  },
+  {
+    "playerDrawn": [3],
+    "bankerDrawn": [4]
+  },
+  {
+    "playerDrawn": [19],
+    "bankerDrawn": [21]
+  },
+  {
+    "playerDrawn": [30],
+    "bankerDrawn": [23]
+  },
+  {
+    "playerDrawn": [13],
+    "bankerDrawn": [28]
+  },
+  {
+    "playerDrawn": [22],
+    "bankerDrawn": [3]
+  },
+  {
+    "playerDrawn": [30],
+    "bankerDrawn": [13]
+  },
+  {
+    "playerDrawn": [4],
+    "bankerDrawn": [17]
+  },
+  {
+    "playerDrawn": [27, 22],
+    "bankerDrawn": [20, 3]
+  },
+  {
+    "playerDrawn": [15, 12],
+    "bankerDrawn": [8, 1]
+  },
+  {
+    "playerDrawn": [19, 5],
+    "bankerDrawn": [18, 15]
+  },
+  {
+    "playerDrawn": [10, 1],
+    "bankerDrawn": [4, 30]
+  },
+  {
+    "playerDrawn": [3, 20],
+    "bankerDrawn": [9, 20]
+  },
+  {
+    "playerDrawn": [20, 27],
+    "bankerDrawn": [15, 14]
+  },
+  {
+    "playerDrawn": [10, 17],
+    "bankerDrawn": [30, 12]
+  },
+  {
+    "playerDrawn": [22, 13],
+    "bankerDrawn": [8, 29]
+  },
+  {
+    "playerDrawn": [3, 13],
+    "bankerDrawn": [19, 15]
+  },
+  {
+    "playerDrawn": [17, 21],
+    "bankerDrawn": [6, 5]
+  },
+  {
+    "playerDrawn": [5, 18],
+    "bankerDrawn": [21, 10]
+  },
+  {
+    "playerDrawn": [21, 30],
+    "bankerDrawn": [21, 23]
+  },
+  {
+    "playerDrawn": [12, 21],
+    "bankerDrawn": [22, 6]
+  },
+  {
+    "playerDrawn": [16, 22],
+    "bankerDrawn": [21, 27]
+  },
+  {
+    "playerDrawn": [16, 5],
+    "bankerDrawn": [3, 29]
+  },
+  {
+    "playerDrawn": [19, 13],
+    "bankerDrawn": [10, 9]
+  },
+  {
+    "playerDrawn": [10, 26],
+    "bankerDrawn": [23, 11]
+  },
+  {
+    "playerDrawn": [30, 3],
+    "bankerDrawn": [4, 18]
+  },
+  {
+    "playerDrawn": [14, 25],
+    "bankerDrawn": [29, 27]
+  },
+  {
+    "playerDrawn": [17, 13],
+    "bankerDrawn": [6, 18]
+  },
+  {
+    "playerDrawn": [10, 3],
+    "bankerDrawn": [12, 26]
+  },
+  {
+    "playerDrawn": [19, 14],
+    "bankerDrawn": [11, 30]
+  },
+  {
+    "playerDrawn": [23, 26],
+    "bankerDrawn": [19, 4]
+  },
+  {
+    "playerDrawn": [23, 15],
+    "bankerDrawn": [8, 14]
+  },
+  {
+    "playerDrawn": [10, 23],
+    "bankerDrawn": [6, 26]
+  },
+  {
+    "playerDrawn": [29, 26],
+    "bankerDrawn": [13, 17]
+  },
+  {
+    "playerDrawn": [4, 11],
+    "bankerDrawn": [5, 9]
+  },
+  {
+    "playerDrawn": [16, 15],
+    "bankerDrawn": [9, 13]
+  },
+  {
+    "playerDrawn": [24, 4],
+    "bankerDrawn": [4, 25]
+  },
+  {
+    "playerDrawn": [13, 27],
+    "bankerDrawn": [6, 12]
+  },
+  {
+    "playerDrawn": [1, 15],
+    "bankerDrawn": [6, 4]
+  },
+  {
+    "playerDrawn": [26, 12],
+    "bankerDrawn": [30, 12]
+  },
+  {
+    "playerDrawn": [1, 26],
+    "bankerDrawn": [19, 26]
+  },
+  {
+    "playerDrawn": [19, 17],
+    "bankerDrawn": [1, 18]
+  },
+  {
+    "playerDrawn": [24, 1],
+    "bankerDrawn": [14, 27]
+  },
+  {
+    "playerDrawn": [14, 9],
+    "bankerDrawn": [9, 27]
+  },
+  {
+    "playerDrawn": [12, 25],
+    "bankerDrawn": [26, 8]
+  },
+  {
+    "playerDrawn": [14, 15],
+    "bankerDrawn": [24, 13]
+  },
+  {
+    "playerDrawn": [12, 29],
+    "bankerDrawn": [7, 10]
+  },
+  {
+    "playerDrawn": [27, 20],
+    "bankerDrawn": [5, 17]
+  },
+  {
+    "playerDrawn": [9, 23],
+    "bankerDrawn": [22, 4]
+  },
+  {
+    "playerDrawn": [25, 11],
+    "bankerDrawn": [1, 10]
+  },
+  {
+    "playerDrawn": [16, 6],
+    "bankerDrawn": [28, 25]
+  },
+  {
+    "playerDrawn": [19, 27],
+    "bankerDrawn": [18, 9]
+  },
+  {
+    "playerDrawn": [19, 5],
+    "bankerDrawn": [3, 17]
+  },
+  {
+    "playerDrawn": [15, 13],
+    "bankerDrawn": [25, 10]
+  },
+  {
+    "playerDrawn": [23, 8],
+    "bankerDrawn": [28, 23]
+  },
+  {
+    "playerDrawn": [7, 21],
+    "bankerDrawn": [9, 6]
+  },
+  {
+    "playerDrawn": [11, 18],
+    "bankerDrawn": [7, 3]
+  },
+  {
+    "playerDrawn": [16, 19],
+    "bankerDrawn": [2, 9]
+  }
+]

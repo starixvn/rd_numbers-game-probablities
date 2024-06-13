@@ -1,0 +1,809 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test should match snapshot 1`] = `
+{
+  "banker": 0.48333333333333334,
+  "player": 0.48333333333333334,
+  "tie": 0.03333333333333333,
+}
+`;
+
+exports[`Snapshot test should match snapshot 2`] = `
+{
+  "banker": 0.5172413793103449,
+  "player": 0.44946492271105826,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 3`] = `
+{
+  "banker": 0.469678953626635,
+  "player": 0.49702734839476814,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 4`] = `
+{
+  "banker": 0.469678953626635,
+  "player": 0.49702734839476814,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 5`] = `
+{
+  "banker": 0.4756242568370987,
+  "player": 0.49108204518430437,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 6`] = `
+{
+  "banker": 0.4958382877526754,
+  "player": 0.4708680142687277,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 7`] = `
+{
+  "banker": 0.4958382877526754,
+  "player": 0.4708680142687277,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 8`] = `
+{
+  "banker": 0.5029726516052319,
+  "player": 0.4637336504161712,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 9`] = `
+{
+  "banker": 0.4839476813317479,
+  "player": 0.4827586206896552,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 10`] = `
+{
+  "banker": 0.49108204518430437,
+  "player": 0.4756242568370987,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 11`] = `
+{
+  "banker": 0.5005945303210464,
+  "player": 0.4661117717003567,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 12`] = `
+{
+  "banker": 0.4994054696789536,
+  "player": 0.46730083234244946,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 13`] = `
+{
+  "banker": 0.4839476813317479,
+  "player": 0.4827586206896552,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 14`] = `
+{
+  "banker": 0.4863258026159334,
+  "player": 0.4803804994054697,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 15`] = `
+{
+  "banker": 0.48989298454221164,
+  "player": 0.4768133174791914,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 16`] = `
+{
+  "banker": 0.4863258026159334,
+  "player": 0.4803804994054697,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 17`] = `
+{
+  "banker": 0.4661117717003567,
+  "player": 0.5005945303210464,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 18`] = `
+{
+  "banker": 0.49227110582639716,
+  "player": 0.47443519619500596,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 19`] = `
+{
+  "banker": 0.4875148632580262,
+  "player": 0.47919143876337694,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 20`] = `
+{
+  "banker": 0.45659928656361476,
+  "player": 0.5101070154577884,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 21`] = `
+{
+  "banker": 0.46135552913198574,
+  "player": 0.5053507728894173,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 22`] = `
+{
+  "banker": 0.45659928656361476,
+  "player": 0.5101070154577884,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 23`] = `
+{
+  "banker": 0.469678953626635,
+  "player": 0.49702734839476814,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 24`] = `
+{
+  "banker": 0.46730083234244946,
+  "player": 0.4994054696789536,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 25`] = `
+{
+  "banker": 0.47205707491082044,
+  "player": 0.4946492271105826,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 26`] = `
+{
+  "banker": 0.48989298454221164,
+  "player": 0.4768133174791914,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 27`] = `
+{
+  "banker": 0.47324613555291317,
+  "player": 0.4934601664684899,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 28`] = `
+{
+  "banker": 0.46135552913198574,
+  "player": 0.5053507728894173,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 29`] = `
+{
+  "banker": 0.5017835909631391,
+  "player": 0.464922711058264,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 30`] = `
+{
+  "banker": 0.4815695600475624,
+  "player": 0.48513674197384066,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 31`] = `
+{
+  "banker": 0.49227110582639716,
+  "player": 0.47443519619500596,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 32`] = `
+{
+  "banker": 0.5017835909631391,
+  "player": 0.464922711058264,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 33`] = `
+{
+  "banker": 0.4661117717003567,
+  "player": 0.5005945303210464,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 34`] = `
+{
+  "banker": 0.5017835909631391,
+  "player": 0.464922711058264,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 35`] = `
+{
+  "banker": 0.47443519619500596,
+  "player": 0.49227110582639716,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 36`] = `
+{
+  "banker": 0.4839476813317479,
+  "player": 0.4827586206896552,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 37`] = `
+{
+  "banker": 0.4994054696789536,
+  "player": 0.46730083234244946,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 38`] = `
+{
+  "banker": 0.4768133174791914,
+  "player": 0.48989298454221164,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 39`] = `
+{
+  "banker": 0.4756242568370987,
+  "player": 0.49108204518430437,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 40`] = `
+{
+  "banker": 0.4661117717003567,
+  "player": 0.5005945303210464,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 41`] = `
+{
+  "banker": 0.4803804994054697,
+  "player": 0.4863258026159334,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 42`] = `
+{
+  "banker": 0.4982164090368609,
+  "player": 0.4684898929845422,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 43`] = `
+{
+  "banker": 0.48513674197384066,
+  "player": 0.4815695600475624,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 44`] = `
+{
+  "banker": 0.4958382877526754,
+  "player": 0.4708680142687277,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 45`] = `
+{
+  "banker": 0.4827586206896552,
+  "player": 0.4839476813317479,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 46`] = `
+{
+  "banker": 0.4815695600475624,
+  "player": 0.48513674197384066,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 47`] = `
+{
+  "banker": 0.49108204518430437,
+  "player": 0.4756242568370987,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 48`] = `
+{
+  "banker": 0.4661117717003567,
+  "player": 0.5005945303210464,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 49`] = `
+{
+  "banker": 0.5053507728894173,
+  "player": 0.46135552913198574,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 50`] = `
+{
+  "banker": 0.5029726516052319,
+  "player": 0.4637336504161712,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 51`] = `
+{
+  "banker": 0.4684898929845422,
+  "player": 0.4982164090368609,
+  "tie": 0.03329369797859691,
+}
+`;
+
+exports[`Snapshot test should match snapshot 52`] = `
+{
+  "banker": 0.514030612244898,
+  "player": 0.4528061224489796,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 53`] = `
+{
+  "banker": 0.5038265306122449,
+  "player": 0.4630102040816326,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 54`] = `
+{
+  "banker": 0.4719387755102041,
+  "player": 0.49489795918367346,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 55`] = `
+{
+  "banker": 0.45535714285714285,
+  "player": 0.5114795918367347,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 56`] = `
+{
+  "banker": 0.475765306122449,
+  "player": 0.4897959183673469,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 57`] = `
+{
+  "banker": 0.5038265306122449,
+  "player": 0.4630102040816326,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 58`] = `
+{
+  "banker": 0.4655612244897959,
+  "player": 0.5012755102040817,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 59`] = `
+{
+  "banker": 0.48086734693877553,
+  "player": 0.48596938775510207,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 60`] = `
+{
+  "banker": 0.4630102040816326,
+  "player": 0.5038265306122449,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 61`] = `
+{
+  "banker": 0.5153061224489796,
+  "player": 0.45153061224489793,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 62`] = `
+{
+  "banker": 0.4744897959183674,
+  "player": 0.4923469387755102,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 63`] = `
+{
+  "banker": 0.49107142857142855,
+  "player": 0.4744897959183674,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 64`] = `
+{
+  "banker": 0.4897959183673469,
+  "player": 0.4770408163265306,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 65`] = `
+{
+  "banker": 0.4719387755102041,
+  "player": 0.49489795918367346,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 66`] = `
+{
+  "banker": 0.46938775510204084,
+  "player": 0.49744897959183676,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 67`] = `
+{
+  "banker": 0.49744897959183676,
+  "player": 0.46938775510204084,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 68`] = `
+{
+  "banker": 0.48596938775510207,
+  "player": 0.48086734693877553,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 69`] = `
+{
+  "banker": 0.49744897959183676,
+  "player": 0.46938775510204084,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 70`] = `
+{
+  "banker": 0.4642857142857143,
+  "player": 0.5025510204081632,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 71`] = `
+{
+  "banker": 0.49107142857142855,
+  "player": 0.475765306122449,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 72`] = `
+{
+  "banker": 0.45408163265306123,
+  "player": 0.5127551020408163,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 73`] = `
+{
+  "banker": 0.4732142857142857,
+  "player": 0.49362244897959184,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 74`] = `
+{
+  "banker": 0.514030612244898,
+  "player": 0.4528061224489796,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 75`] = `
+{
+  "banker": 0.5012755102040817,
+  "player": 0.4655612244897959,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 76`] = `
+{
+  "banker": 0.4846938775510204,
+  "player": 0.48214285714285715,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 77`] = `
+{
+  "banker": 0.5127551020408163,
+  "player": 0.45408163265306123,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 78`] = `
+{
+  "banker": 0.4846938775510204,
+  "player": 0.48214285714285715,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 79`] = `
+{
+  "banker": 0.4923469387755102,
+  "player": 0.4744897959183674,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 80`] = `
+{
+  "banker": 0.48214285714285715,
+  "player": 0.48341836734693877,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 81`] = `
+{
+  "banker": 0.5089285714285714,
+  "player": 0.45790816326530615,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 82`] = `
+{
+  "banker": 0.49107142857142855,
+  "player": 0.475765306122449,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 83`] = `
+{
+  "banker": 0.47831632653061223,
+  "player": 0.4872448979591837,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 84`] = `
+{
+  "banker": 0.4604591836734694,
+  "player": 0.5051020408163265,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 85`] = `
+{
+  "banker": 0.5038265306122449,
+  "player": 0.4630102040816326,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 86`] = `
+{
+  "banker": 0.4642857142857143,
+  "player": 0.5025510204081632,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 87`] = `
+{
+  "banker": 0.46683673469387754,
+  "player": 0.4987244897959184,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 88`] = `
+{
+  "banker": 0.4872448979591837,
+  "player": 0.47959183673469385,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 89`] = `
+{
+  "banker": 0.4732142857142857,
+  "player": 0.49362244897959184,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 90`] = `
+{
+  "banker": 0.5114795918367347,
+  "player": 0.45535714285714285,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 91`] = `
+{
+  "banker": 0.5127551020408163,
+  "player": 0.45408163265306123,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 92`] = `
+{
+  "banker": 0.4897959183673469,
+  "player": 0.4770408163265306,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 93`] = `
+{
+  "banker": 0.5127551020408163,
+  "player": 0.45408163265306123,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 94`] = `
+{
+  "banker": 0.44642857142857145,
+  "player": 0.5204081632653061,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 95`] = `
+{
+  "banker": 0.5051020408163265,
+  "player": 0.461734693877551,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 96`] = `
+{
+  "banker": 0.4872448979591837,
+  "player": 0.47959183673469385,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 97`] = `
+{
+  "banker": 0.4744897959183674,
+  "player": 0.4923469387755102,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 98`] = `
+{
+  "banker": 0.45918367346938777,
+  "player": 0.5063775510204082,
+  "tie": 0.03443877551020408,
+}
+`;
+
+exports[`Snapshot test should match snapshot 99`] = `
+{
+  "banker": 0.4987244897959184,
+  "player": 0.46811224489795916,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 100`] = `
+{
+  "banker": 0.5051020408163265,
+  "player": 0.461734693877551,
+  "tie": 0.03316326530612245,
+}
+`;
+
+exports[`Snapshot test should match snapshot 101`] = `
+{
+  "banker": 0.5114795918367347,
+  "player": 0.45535714285714285,
+  "tie": 0.03316326530612245,
+}
+`;

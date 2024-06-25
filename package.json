@@ -2,7 +2,7 @@
   "name": "@rd/numbers-game-probabilities",
   "version": "1.6.1-beta.1",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "files": [
@@ -11,6 +11,7 @@
   "scripts": {
     "test-coverage": "jest",
     "build": "tsc -p tsconfig.build.json",
+    "debug": "tsc -p tsconfig.debug.json",
     "reg": "tsc -p tsconfig.build.json"
   },
   "author": "",
@@ -29,6 +30,7 @@
     "@types/chance": "^1.1.6",
     "@types/jest": "29.5.11",
     "@types/node": "20.10.5",
+    "@types/sc-game-base": "^1.0.0-beta.2",
     "chance": "^1.1.11",
     "jest": "^29.7.0",
     "jest-junit": "^16.0.0",
@@ -39,6 +41,9 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "mathjs": "^12.2.1"
+    "extensionless": "^1.9.9",
+    "mathjs": "^12.2.1",
+    "sc-game-base": "^5.2.1",
+    "sc-number-game-base": "^1.1.1"
   }
 }
